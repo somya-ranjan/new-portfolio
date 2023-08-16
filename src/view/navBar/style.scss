@@ -1,0 +1,42 @@
+nav {
+  position: sticky !important;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  background: var(--secondary-background-color);
+  padding: 0 !important;
+  min-height: 9vh;
+  .navbar-brand {
+    font-family: "Lugrasimo", cursive;
+    font-size: 30px;
+    line-height: 28px;
+  }
+
+  ul {
+    li {
+      margin-right: 10px;
+      text-align: center;
+      &:last-child {
+        margin-right: 0px;
+      }
+      position: relative;
+      a {
+        &::after {
+          content: " ";
+          position: absolute;
+          bottom: 1px;
+          left: 0;
+          width: 0%;
+          border-bottom: 3px solid var(--lime-color);
+          transition: all 0.35s linear;
+        }
+        &:hover::after {
+          width: 100%;
+        }
+      }
+      .active {
+        color: var(--lime-color) !important;
+      }
+    }
+  }
+}

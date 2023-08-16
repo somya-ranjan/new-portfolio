@@ -1,0 +1,40 @@
+.contact_container {
+  .or {
+    text-align: center;
+    p {
+      position: relative;
+      display: inline-block;
+      margin: 0 10px;
+
+      &::before,
+      &::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 50px;
+        height: 3px;
+        background-color: var(--lime-color);
+        border-radius: 10px;
+      }
+      &::before {
+        left: -150%;
+      }
+      &::after {
+        left: 260%;
+      }
+    }
+  }
+  .contact_content {
+    svg {
+      color: var(--lime-color);
+      margin-right: 10px;
+      font-size: 30px;
+    }
+
+    a {
+      text-decoration: none;
+      color: var(--secondary-text-color);
+    }
+  }
+}

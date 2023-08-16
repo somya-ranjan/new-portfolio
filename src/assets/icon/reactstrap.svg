@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" viewBox="1.67 -0.33 34.81 36.68">
+  <style>
+    circle,
+    ellipse {
+      stroke: slategrey;
+    }
+    path {
+      fill: black;
+    }
+  </style>
+  <g transform="matrix(1,0,0,1,28,23.3333)">
+    <g transform="matrix(0.619375,0,0,0.619375,-8.92397,-5.3272)">
+      <ellipse cx="0" cy="0" rx="26.8" ry="10.2" style="fill:none;stroke-width:1.61px;"/>
+    </g>
+    <g transform="matrix(0.309688,0.536395,-0.536395,0.309688,-8.92397,-5.3272)">
+      <ellipse cx="0" cy="0" rx="26.8" ry="10.2" style="fill:none;stroke-width:1.61px;"/>
+    </g>
+    <g transform="matrix(0.309688,-0.536395,0.536395,0.309688,-8.92397,-5.3272)">
+      <ellipse cx="0" cy="0" rx="26.8" ry="10.2" style="fill:none;stroke-width:1.61px;"/>
+    </g>
+    <g transform="matrix(0.309688,-0.536395,0.536395,0.309688,-8.92397,-5.3272)">
+      <circle cx="0" cy="0" r="4.25" style="fill:none;stroke-width:1.61px;"/>
+    </g>
+  </g>
+</svg>

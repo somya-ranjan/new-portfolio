@@ -1,0 +1,36 @@
+.about_me_hero {
+  min-height: 91vh;
+
+  .about_me_container {
+    ul {
+      text-align: justify;
+      // padding-left: 0;
+      li {
+        padding-bottom: 15px;
+        color: var(--secondary-text-color);
+        &:last-child {
+          padding-bottom: 0;
+        }
+      }
+    }
+  }
+  .tab_container {
+    .tabs {
+      background-color: var(--secondary-background-color);
+      .MuiTabs-indicator {
+        background-color: var(--lime-color);
+      }
+      .tab {
+        color: var(--primary-text-color);
+        flex: 1;
+      }
+    }
+    .tabs_content {
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      overflow-y: hidden;
+      padding-top: 20px;
+    }
+  }
+}

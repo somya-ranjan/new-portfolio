@@ -1,0 +1,17 @@
+.bottom_nav {
+  position: sticky !important;
+  z-index: 100;
+  bottom: 0;
+  left: 0;
+  background: var(--secondary-background-color) !important;
+  height: 60px !important;
+  .MuiBottomNavigationAction-root {
+    color: var(--testimonial-background-color);
+  }
+  .Mui-selected {
+    color: var(--lime-color);
+    svg {
+      color: var(--lime-color);
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.top_element_hero {
+  padding: 40px 12px 35px 12px;
+  position: relative;
+  .semi_circle {
+    width: 220px;
+    height: 110px;
+    border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+    border: 2px dashed var(--secondary-text-color);
+    border-bottom: 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10%;
+  }
+  img {
+    margin: auto;
+    display: block;
+    width: 100px;
+    margin-bottom: 5px;
+  }
+  h3 {
+    position: relative;
+    font-weight: 600;
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 70px;
+      height: 3px;
+      background-color: var(--lime-color);
+      border-radius: 10px;
+    }
+  }
+}

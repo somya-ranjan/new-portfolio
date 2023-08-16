@@ -1,0 +1,22 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap");
+@import "swiper/css";
+@import "swiper/css/effect-cards";
+@import "swiper/css/pagination";
+@import "react-vertical-timeline-component/style.min.css";
+
+@font-face {
+  font-family: "Oatmeal Pro";
+  src: url("assets/fonts/OatmealPro-Regular.otf") format("opentype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oatmeal Pro";
+}
+body {
+  background-color: var(--primary-background-color);
+  overflow-x: hidden;
+}
