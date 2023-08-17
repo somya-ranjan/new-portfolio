@@ -60,14 +60,15 @@ function Home() {
                   websites that are not only visually appealing but also perform
                   optimally.
                 </p>
-                <motion.button
-                  className="px-4 primary_btn rounded shadow-lg"
+                <motion.a
+                  className="px-4 hire_btn rounded shadow-lg"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
+                  href="mailto:mr.somyars@gmail.com"
                 >
                   I'm looking to hire
                   <HiOutlineArrowNarrowRight className="ms-2" />
-                </motion.button>
+                </motion.a>
               </Col>
             </Row>
           </Container>

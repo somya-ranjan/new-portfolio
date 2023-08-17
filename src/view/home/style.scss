@@ -32,6 +32,14 @@
       border-radius: 10px;
     }
   }
+  .hire_btn,
+  h {
+    background-color: var(--lime-color) !important;
+    padding: 14px 0;
+    color: #000 !important;
+    font-weight: 600 !important;
+    text-decoration: none;
+  }
 }
 
 // media query //
