@@ -14,7 +14,6 @@ import "./style.scss";
 function Testimonial() {
   // redux state and api calling
   const { data: testimonialData, isLoading } = useGetTestimonialQuery();
-  console.log(testimonialData, isLoading);
   const progressCircle = useRef(null);
   const progressContent = useRef(null);
   const onAutoplayTimeLeft = (s, time, progress) => {
@@ -23,17 +22,6 @@ function Testimonial() {
       progressContent.current.textContent = `${Math.ceil(time / 1000)}s`;
     }
   };
-
-  // const testimonialData = [
-  //   {
-  //     quotes:
-  //       "Lorem Lorem Lorem LoremLorem l Lorem Lorem Lorem LoremLorem Lorem Lorem Lorem LoremLorem l Lorem Lorem Lorem LoremLorem Lorem Lorem Lorem LoremLorem i LoremLorem LoremLorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem",
-  //   },
-  //   {
-  //     quotes:
-  //       "Lorem Lorem Lorem LoremLor em l Lorem Lorem Lorem LoremLorem Lorem Lorem Lorem LoremLorem l Lorem Lorem Lorem LoremLorem",
-  //   },
-  // ];
 
   return (
     <Swiper

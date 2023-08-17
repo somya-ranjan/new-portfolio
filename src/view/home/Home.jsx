@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { CgNotes } from "react-icons/cg";
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
+import { TypeAnimation } from "react-type-animation";
 
 // // static import
 import TransitionLayouts from "../../layouts/transition/TransitionLayouts";
@@ -51,7 +52,22 @@ function Home() {
               </Col>
               <Col xs={11} md={10} lg={9}>
                 <h2>Hi, I'm Somyaranjan</h2>
-                <h5>Frontend Developer</h5>
+                <h5>
+                  <TypeAnimation
+                    preRenderFirstString={true}
+                    sequence={[
+                      "Frontend Developer",
+                      2500,
+                      "React Js Developer",
+                      2500,
+                      "UI/UX Developer",
+                      2500,
+                    ]}
+                    speed={50}
+                    repeat={Infinity}
+                  />
+                </h5>
+
                 <p className="text_secondary text-justify">
                   As a frontend developer with 1.7 years of experience, I
                   specialize in creating beautiful and user friendly web
