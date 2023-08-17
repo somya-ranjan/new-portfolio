@@ -1,17 +1,18 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
+import { VITE_APP_API_URL } from "../../../config/envConfig";
 import toaster from "../../../utility/toaster";
 
 export const testimonialService = createApi({
   reducerPath: "testimonialService",
   baseQuery: fetchBaseQuery({
-    baseUrl: "https://sheetdb.io/api/v1/skavg50mxii5b/",
+    baseUrl: VITE_APP_API_URL,
   }),
   tagTypes: ["Testimonial"],
   endpoints: (builder) => ({
     getTestimonial: builder.query({
       query: () => {
         return {
-          url: ``,
+          url: `skavg50mxii5b`,
           method: "GET",
         };
       },

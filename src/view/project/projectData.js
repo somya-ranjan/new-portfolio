@@ -1,8 +1,10 @@
 import {
   CALCULATOR_IMG,
   CONSULTANCY_IMG,
+  CRUD_IMG,
   GYM_IMG,
   TODO_IMG,
+  WEATHER_IMG,
 } from "../../assets/img";
 
 export const projectData = [
@@ -17,6 +19,32 @@ export const projectData = [
     notCompatibleFor: { all: false },
     liveLink: "https://s2solution.netlify.app/",
     gitLink: "https://github.com/somya-ranjan/Consultant-Website",
+  },
+  {
+    img: CRUD_IMG,
+    name: "User Management",
+    project: {
+      details:
+        "This is an user management app. User can add, edit, block/unblock and delete user and also see the details of users. This app have filter and search export data to excel functionality also, with the auth flow and cache the old data, it helps to increase performance 50-60% ",
+      techStack:
+        "React Js, Vite, Javascript, Material Ui, axios, reduxToolkit, RTKQuery, Formik, Yup, Html5, Css3",
+    },
+    notCompatibleFor: { all: false },
+    liveLink: "https://auth-crud-app.onrender.com",
+    gitLink: "https://github.com/somya-ranjan/auth-crud-app",
+  },
+  {
+    img: WEATHER_IMG,
+    name: "React weather app",
+    project: {
+      details:
+        "This is an advance weather app. This app gives location wise weather data, forecast weather data, current location map and currency exchange data. This app have auth flow.",
+      techStack:
+        "React Js, Vite, Javascript, ReactStrap, Bootstrap, reduxToolkit, reduxSaga, AVForm, Html5, Css3",
+    },
+    notCompatibleFor: { all: false },
+    liveLink: "https://auth-weather.onrender.com",
+    gitLink: "https://github.com/somya-ranjan/auth-weather-app",
   },
   {
     img: TODO_IMG,

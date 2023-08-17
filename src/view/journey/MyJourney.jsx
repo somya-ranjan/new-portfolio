@@ -39,7 +39,7 @@ function MyJourney() {
               </VerticalTimelineElement>
             ))}
             <VerticalTimelineElement
-              iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
+              iconStyle={{ background: "#2196F3", color: "#fff" }}
               icon={<AiFillStar />}
             />
           </VerticalTimeline>
