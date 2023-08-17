@@ -25,7 +25,7 @@ export const projectData = [
     name: "User Management",
     project: {
       details:
-        "This is an user management app. User can add, edit, block/unblock and delete user and also see the details of users. This app have filter and search export data to excel functionality also, with the auth flow and cache the old data, it helps to increase performance 50-60% ",
+        "This is an user management app. User can add, edit, block/unblock and delete user and also see details of the users. This app have filter and search export data to excel functionality also, with the auth flow and cache the old data, it helps to increase performance 50-60% ",
       techStack:
         "React Js, Vite, Javascript, Material Ui, axios, reduxToolkit, RTKQuery, Formik, Yup, Html5, Css3",
     },
