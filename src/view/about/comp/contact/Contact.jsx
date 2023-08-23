@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import { useNavigate } from "react-router-dom";
 import { Col, Container, Row } from "reactstrap";
 import { motion } from "framer-motion";
@@ -47,4 +47,4 @@ function Contact() {
   );
 }
 
-export default Contact;
+export default memo(Contact);

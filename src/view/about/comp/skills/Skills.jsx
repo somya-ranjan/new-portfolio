@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import { Container, Row, Col } from "reactstrap";
 import { motion } from "framer-motion";
 import {
@@ -70,4 +70,4 @@ function Skills() {
   );
 }
 
-export default Skills;
+export default memo(Skills);

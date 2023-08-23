@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from "react";
+import React, { useRef, memo } from "react";
 import { Row, Col } from "reactstrap";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, EffectCards } from "swiper/modules";
@@ -88,4 +88,4 @@ function Testimonial() {
   );
 }
 
-export default Testimonial;
+export default memo(Testimonial);

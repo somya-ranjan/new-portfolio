@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import { Button, Modal, ModalBody } from "reactstrap";
 import { useNavigate } from "react-router-dom";
 import { BsCheck2 } from "react-icons/bs";
@@ -38,4 +38,4 @@ function SuccessModal({ isOpen, setOpen }) {
   );
 }
 
-export default SuccessModal;
+export default memo(SuccessModal);
