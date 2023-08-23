@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import { Col, Row } from "reactstrap";
 import "./style.scss";
 
@@ -17,4 +17,4 @@ function TopElement({ icon, name, content }) {
   );
 }
 
-export default TopElement;
+export default memo(TopElement);

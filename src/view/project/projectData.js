@@ -47,18 +47,6 @@ export const projectData = [
     gitLink: "https://github.com/somya-ranjan/auth-weather-app",
   },
   {
-    img: TODO_IMG,
-    name: "React todo app",
-    project: {
-      details:
-        "This is a normal todo app, users can manege her/his dally/weekly/monthly task. User can add and delete list.",
-      techStack: "React Js, Javascript, Html5, Css3",
-    },
-    notCompatibleFor: { mobile: true },
-    liveLink: "https://somya-ranjan.github.io/React-ToDoList",
-    gitLink: "https://github.com/somya-ranjan/React-ToDoList",
-  },
-  {
     img: GYM_IMG,
     name: "Health and fitness site",
     project: {
@@ -82,4 +70,16 @@ export const projectData = [
     liveLink: "https://somya-ranjan.github.io/JS-Calucator/",
     gitLink: "https://github.com/somya-ranjan/JS-Calucator",
   },
+  // {
+  //   img: TODO_IMG,
+  //   name: "React todo app",
+  //   project: {
+  //     details:
+  //       "This is a normal todo app, users can manege her/his dally/weekly/monthly task. User can add and delete list.",
+  //     techStack: "React Js, Javascript, Html5, Css3",
+  //   },
+  //   notCompatibleFor: { mobile: true },
+  //   liveLink: "https://somya-ranjan.github.io/React-ToDoList",
+  //   gitLink: "https://github.com/somya-ranjan/React-ToDoList",
+  // }
 ];

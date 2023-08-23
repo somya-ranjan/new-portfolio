@@ -1,4 +1,3 @@
-// import { useEffect } from "react";
 import { Navigate, Route, Routes, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 
@@ -30,22 +29,6 @@ function App() {
       )
     );
   });
-
-  // useEffect(() => {
-  //   // Remove loader from index.html
-  //   const loaderEle = document.getElementById("root-loader");
-  //   loaderEle.remove();
-
-  //   // create device ID
-  //   if (!localStorage.getItem("deviceId")) {
-  //     const tempId =
-  //       navigator.userAgent + Math.floor(Math.random() * 10000000000000000);
-  //     localStorage.setItem(
-  //       "deviceId",
-  //       tempId.slice(tempId.lastIndexOf(")") + 1).trim(" ")
-  //     );
-  //   }
-  // }, []);
   return (
     <AnimatePresence mode="wait" initial={false}>
       <Routes location={location} key={location.pathname}>
