@@ -30,36 +30,40 @@ function About() {
         <Col xs={12} md={5} lg={5} xl={6} className="about_me_container">
           <ul>
             <li>
-              Hi.. I'm Somyaranjan, as a frontend developer with 1.7 years of
-              experience, I specialize in creating beautiful and user friendly
-              web interfaces that deliver a seamless user experience. I am
-              passionate about crafting well designed and responsive websites
-              that are not only visually appealing but also perform optimally.
+              Hello, I'm Somyaranjan, a dedicated frontend developer with 2
+              years of professional experience. My primary focus is on creating
+              visually appealing and user-friendly web interfaces that offer a
+              seamless and enjoyable user experience. I'm deeply passionate
+              about crafting well-designed and responsive websites that not only
+              look great but also perform optimally.
             </li>
             <li>
-              My expertise lies in a range of frontend development technologies,
-              including HTML, CSS, JavaScript, MaterialUi, TailwindCSS,
-              BootStrap and frameworks like React and NextJS. I enjoy working
-              with clients and teams to develop creative solutions that meet
-              their specific business goals and user needs. In my work, I always
-              strive to strike a balance between design and functionality,
-              ensuring that the final product is both aesthetically pleasing and
-              easy to use.
+              My expertise spans a wide range of frontend development
+              technologies, including HTML, CSS, JavaScript, Material-UI,
+              Tailwind CSS, Bootstrap, and I have extensive experience with
+              frameworks such as React and Next.js. I take pleasure in
+              collaborating with clients and teams to devise creative solutions
+              that align with their specific business objectives and user
+              requirements. In my work, I prioritize achieving a harmonious
+              blend of design and functionality, ensuring that the end product
+              is not only aesthetically pleasing but also highly intuitive to
+              use.
             </li>
             <li>
-              Over the years, I have had the privilege of working on numerous
-              frontend web development projects, ranging from simple landing
-              pages to complex web applications. I have experience collaborating
-              with designers, backend developers, and other stakeholders to
-              bring projects from concept to launch.
+              Over the years, I've been fortunate to work on a multitude of
+              frontend web development projects, spanning from simple landing
+              pages to complex web applications. I have a proven track record of
+              successful collaboration with designers, backend developers, and
+              various stakeholders, guiding projects from concept to launch.
             </li>
             <li>
-              As a frontend developer, I am committed to staying up-to-date with
-              the latest trends and best practices in the industry. I am always
-              looking for new challenges and opportunities to improve my skills
-              and take on exciting projects. If you're looking for a frontend
-              developer who can help bring your vision to life, feel free to
-              connect with me or drop me a message. I'd love to hear from you!
+              As a frontend developer, I'm fully committed to staying current
+              with the latest industry trends and best practices. I'm
+              continually seeking fresh challenges and opportunities to enhance
+              my skills and take on exciting projects. If you're in search of a
+              frontend developer who can bring your vision to life, please don't
+              hesitate to reach out and connect with me. I'm eager to hear from
+              you!
             </li>
           </ul>
         </Col>

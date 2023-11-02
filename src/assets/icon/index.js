@@ -20,3 +20,4 @@ export { default as CI_CD } from "./ci_cd.png";
 export { default as GITHUB } from "./github.png";
 export { default as VITE } from "./vite.svg";
 export { default as AVATAR } from "./avater.png";
+export { default as NEXTJS } from "./next-js.svg";

@@ -6,7 +6,7 @@ export const journeyData = [
     heading: "React Js Developer",
     subHeading: "Ahmedabad, Gujarat, India (Remote)",
     description:
-      "Working on multiple project like Chips/Token Management, NFT Management, etc. help of react js, material ui, bootstrap, js and other frontend framework and library.",
+      "I'm currently engaged in various projects, such as Chips/Token Management and NFT Management. These projects leverage a blend of frontend technologies, including React.js, Material-UI, Bootstrap, JavaScript, and other frontend frameworks and libraries.",
     duration: "Jun 2022 - present",
     icon: MdOutlineWork,
     backgroundColor: "#1b2430",
@@ -16,7 +16,7 @@ export const journeyData = [
     heading: "React Js Intern",
     subHeading: "Ahmedabad, Gujarat, India (Remote)",
     description:
-      "Learned various new UI tech and brush-up javaScript features. Worked with team of 6 web developers and with a mentor on a real estate project, I integrated basic functionality and bug fixed.",
+      "I've acquired proficiency in various new UI technologies and refreshed my knowledge of JavaScript features. I collaborated with a team of six web developers and had the guidance of a mentor while working on a real estate project. During this project, I integrated essential functionalities and addressed bugs as needed.",
     duration: "Dec 2021 - Jun 2022",
     icon: MdOutlineWork,
     backgroundColor: "#1b2430",
@@ -27,7 +27,7 @@ export const journeyData = [
     subHeading:
       "Html5, Css3, Javascript, Bootstrap, React Js, Sass and other frontend technology",
     description:
-      "Learning above skill form open source platform like: YouTube, Google, W3School, freeCodeCamp, etc.",
+      "I've developed the skills mentioned above by learning from open-source platforms such as YouTube, Google, W3Schools, and freeCodeCamp, among others.",
     duration: "July 2020 - Jun 2021",
     icon: IoMdSchool,
     backgroundColor: "#1b2430",
