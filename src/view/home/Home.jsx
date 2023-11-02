@@ -75,12 +75,12 @@ function Home() {
                 </h5>
 
                 <p className="text_secondary text-justify">
-                  As a frontend developer with 1.7 years of experience, I
-                  specialize in creating beautiful and user friendly web
-                  interfaces that deliver a seamless user experience. I am
-                  passionate about crafting well designed and responsive
-                  websites that are not only visually appealing but also perform
-                  optimally.
+                  As a frontend developer with <strong>Two years</strong> of
+                  experience, I specialize in creating beautiful and user
+                  friendly web interfaces that deliver a seamless user
+                  experience. I am passionate about crafting well designed and
+                  responsive websites that are not only visually appealing but
+                  also perform optimally.
                 </p>
                 <motion.a
                   className="px-4 hire_btn rounded shadow-lg"
