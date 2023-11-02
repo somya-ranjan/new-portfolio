@@ -23,7 +23,7 @@ const NavBar = () => {
         </motion.li>
         <motion.li whileTap={{ scale: 0.95 }} className="nav-item">
           <NavLink className="nav-link text_primary" to="/project">
-            Project
+            Personal Project
           </NavLink>
         </motion.li>
         <motion.li whileTap={{ scale: 0.95 }} className="nav-item">

@@ -5,15 +5,29 @@ import {
   GYM_IMG,
   TODO_IMG,
   WEATHER_IMG,
+  YT_IMG,
 } from "../../assets/img";
 
 export const projectData = [
+  {
+    img: YT_IMG,
+    name: "Youtube Clone",
+    project: {
+      details:
+        "This project showcases my skills in front-end development and demonstrates my ability to work with various libraries and APIs. By using modern technologies like Nextjs, React, JavaScript and Tailwind CSS, etc. I've ensured clean, maintainable code for scalability and future enhancements. My YouTube clone is a testament to my commitment to delivering high-quality projects.",
+      techStack:
+        "Next Js, React Js, Javascript, Tailwind CSS, Html5, CSS3, Sass, Axios, Infinite Scroll",
+    },
+    notCompatibleFor: { all: false },
+    liveLink: "https://somya-youtube-clone.vercel.app/",
+    gitLink: "https://github.com/somya-ranjan/youtube-clone",
+  },
   {
     img: CONSULTANCY_IMG,
     name: "Consultant site",
     project: {
       details:
-        "This is a basically a IT consultant website, clients can gives query regarding hes/her requirement on contact page. This site consists which technology use for project requirement, clients testimonial, previous project and lots of more information.",
+        "This website primarily serves as an IT consultancy platform where clients can submit inquiries about their specific requirements through the contact page. The site encompasses a wealth of information, including the technologies utilized for project requirements, client testimonials, details about previous projects, and various other relevant content.",
       techStack: "React Js, Javascript, Bootstrap, Html5, CSS3, jQuery",
     },
     notCompatibleFor: { all: false },
@@ -25,7 +39,7 @@ export const projectData = [
     name: "User Management",
     project: {
       details:
-        "This is an user management app. User can add, edit, block/unblock and delete user and also see details of the users. This app have filter and search export data to excel functionality also, with the auth flow and cache the old data, it helps to increase performance 50-60% ",
+        "This is a user management application that empowers users to perform various actions, including adding, editing, blocking/unblocking, and deleting user accounts. Furthermore, users can access detailed information about other users. This application also features filtering and search capabilities, allowing for the export of data to Excel. Additionally, it incorporates authentication processes and data caching, resulting in a remarkable 50-60% boost in performance.",
       techStack:
         "React Js, Vite, Javascript, Material Ui, axios, reduxToolkit, RTKQuery, Formik, Yup, Html5, Css3",
     },
@@ -38,7 +52,7 @@ export const projectData = [
     name: "React weather app",
     project: {
       details:
-        "This is an advance weather app. This app gives location wise weather data, forecast weather data, current location map and currency exchange data. This app have auth flow.",
+        "This is an advanced weather application that offers comprehensive features, including location-specific weather data, weather forecasts, a current location map, and real-time currency exchange information. The app is equipped with an authentication flow to enhance user security and access control.",
       techStack:
         "React Js, Vite, Javascript, ReactStrap, Bootstrap, reduxToolkit, reduxSaga, AVForm, Html5, Css3",
     },
@@ -51,7 +65,7 @@ export const projectData = [
     name: "Health and fitness site",
     project: {
       details:
-        "This is a health and fitness business website, customers can gives query regarding training or other query on contact page. This site consists which service provide for customers, trainer details, customers can directly contact to trainer for his.her query and lots of more information.",
+        "This website is dedicated to the health and fitness industry, serving as a hub for customers to submit queries about training and other related matters through the contact page. The site provides a comprehensive overview of the services offered to customers, detailed information about the trainers, and facilitates direct communication between customers and trainers for personalized inquiries. Additionally, it offers a wealth of supplementary information related to health and fitness.",
       techStack: "React Js, Javascript, Bootstrap, Html5, CSS3, jQuery",
     },
     notCompatibleFor: { all: false },
@@ -63,7 +77,7 @@ export const projectData = [
     name: "Scientific calculator app",
     project: {
       details:
-        "This is a scientific calculator app, users can solve his/her dally mathematics calculative problem.",
+        "This is a sophisticated scientific calculator application that has been developed to cater to the mathematical computational needs of users in their day-to-day activities. Whether it's solving complex equations, performing scientific calculations, or tackling various mathematical problems, this app offers a comprehensive toolset to address a wide range of mathematical challenges. With an intuitive and user-friendly interface, users can easily input and solve mathematical equations, making it a valuable addition to their daily routine for handling calculations efficiently and accurately.",
       techStack: "Javascript, Html5, Css3",
     },
     notCompatibleFor: { mobile: true },

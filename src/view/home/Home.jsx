@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Col, Container, Row } from "reactstrap";
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
@@ -8,10 +8,13 @@ import { TypeAnimation } from "react-type-animation";
 
 // // static import
 import TransitionLayouts from "../../layouts/transition/TransitionLayouts";
+import ResumeModal from "./ResumeModal";
 import { MAIN_BG_IMG } from "../../assets/img";
 import "./style.scss";
 
 function Home() {
+  // // local state
+  const [openModal, setOpenModal] = useState(false);
   return (
     <TransitionLayouts>
       <Row className="align-items-sm-center justify-content-between home_main_container">
@@ -46,7 +49,10 @@ function Home() {
                   whileTap={{ scale: 0.9 }}
                   className="shadow-lg"
                 >
-                  <CgNotes className="fs-3" />
+                  <CgNotes
+                    className="fs-3"
+                    onClick={() => setOpenModal(true)}
+                  />
                 </motion.a>
                 <span className="vertical_line"></span>
               </Col>
@@ -93,6 +99,7 @@ function Home() {
           <img src={MAIN_BG_IMG} alt="main img" className="img-fluid" />
         </Col>
       </Row>
+      <ResumeModal isOpen={openModal} close={() => setOpenModal(false)} />
     </TransitionLayouts>
   );
 }

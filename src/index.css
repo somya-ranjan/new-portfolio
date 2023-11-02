@@ -20,3 +20,17 @@ body {
   background-color: var(--primary-background-color);
   overflow-x: hidden;
 }
+
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #0f0f0f;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  border: 3px solid #0f0f0f;
+}

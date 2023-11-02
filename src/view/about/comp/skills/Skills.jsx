@@ -19,12 +19,14 @@ import {
   CI_CD,
   GITHUB,
   VITE,
+  NEXTJS,
 } from "../../../../assets/icon";
 import "./style.scss";
 
 function Skills() {
   const skills = [
     { icon: REACT, label: "React Js" },
+    { icon: NEXTJS, label: "Next Js" },
     { icon: JS, label: "Javascript" },
     { icon: MU_UI, label: "Material UI" },
     { icon: TAILWIND_CSS, label: "Tailwind Css" },
