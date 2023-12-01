@@ -35,7 +35,7 @@ function ResumeModal({ isOpen, close }) {
           <iframe
             loading="lazy"
             onLoad={handleIframeLoad}
-            src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFsANUSxp4&#x2F;view?embed"
+            src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFz2XODMRI&#x2F;view?embed"
             allowfullscreen="allowfullscreen"
             allow="fullscreen"
           />
