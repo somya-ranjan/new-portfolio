@@ -21,8 +21,8 @@ function ResumeModal({ isOpen, close }) {
     >
       <div className="icon_container">
         <a
-          href="../../assets/file/Somyaranjan Sethy Frontend ReactJs.pdf"
-          // target="_blank"
+           href="https://drive.google.com/file/d/1y_vKNscslJ1CsVtLnv8YT6XEd1fCZ0nq/view?usp=sharing"
+           target="_blank"
           download
           // rel="noopener noreferrer"
         >
