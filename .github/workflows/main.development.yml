@@ -1,8 +1,9 @@
 name: Somyaranjan Portfolio ->Build-Deploy to development
+
 on:
-push:
-  branches:
-    - development
+  push:
+    branches:
+      - development
 
 jobs:
   Deploy:
