@@ -32,6 +32,12 @@ export const appRoutes = [
     component: React.lazy(() => import("../../view/contact/Contact")),
   },
   {
+    path: "/maintenance",
+    name: "Maintenance",
+    exact: true,
+    component: React.lazy(() => import("../../view/userFallback/Maintenance ")),
+  },
+  {
     redirectRoute: true,
     name: "Home",
     path: "/",

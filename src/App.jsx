@@ -1,14 +1,26 @@
-import { Navigate, Route, Routes, useLocation } from "react-router-dom";
+import { useEffect, useState } from "react";
+import {
+  Navigate,
+  Route,
+  Routes,
+  useLocation,
+  useNavigate,
+} from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 
 // // static import
 import MainLayouts from "./layouts/main/MainLayouts";
+import Maintenance from "./view/userFallback/Maintenance ";
 import { appRoutes } from "./routes";
 import "./App.css";
 
 function App() {
   // // initial state
   const location = useLocation();
+  const navigate = useNavigate();
+
+  // // local state
+  const [isMaintenanceMode, setIsMaintenanceMode] = useState(true);
 
   const mainContent = appRoutes.map((route) => {
     return route.component ? (
@@ -29,10 +41,28 @@ function App() {
       )
     );
   });
+
+  const toggleMaintenanceMode = () => {
+    setIsMaintenanceMode((prevMode) => !prevMode);
+  };
+
+  useEffect(() => {
+    if (isMaintenanceMode) {
+      navigate("/maintenance", { replace: true });
+    }
+  }, [isMaintenanceMode, navigate]);
+
   return (
     <AnimatePresence mode="wait" initial={false}>
       <Routes location={location} key={location.pathname}>
-        <Route element={<MainLayouts />}> {mainContent}</Route>
+        {isMaintenanceMode ? (
+          <Route
+            path="/maintenance"
+            element={<Maintenance toggle={toggleMaintenanceMode} />}
+          />
+        ) : (
+          <Route element={<MainLayouts />}> {mainContent}</Route>
+        )}
       </Routes>
     </AnimatePresence>
   );
